@@ -1,3 +1,7 @@
 html {
-    background-color: #272727;
-  }
+  background-image: linear-gradient(#F2F2F2
+  , #545454);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  }

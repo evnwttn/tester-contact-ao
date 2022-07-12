@@ -9,7 +9,12 @@ export const ContactForm = () => {
   return (
     <Box
       component="form"
-      sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}
+      sx={{
+        mt: "10vw",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+      }}
       onSubmit={handleSubmit(onSubmit)}
     >
       <TextField
@@ -33,7 +38,7 @@ export const ContactForm = () => {
         sx={{ width: "28vw" }}
         {...register("Message", {})}
       />
-      <IconButton disableRipple sx={{ cursor: "default" }} type="submit">
+      <IconButton disableRipple type="submit">
         <SendIcon
           sx={{
             ml: "25vw",
